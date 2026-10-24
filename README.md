@@ -16,8 +16,8 @@
 H.Y.D.R.A. is a Streamlit prototype for exploring satellite imagery over selected water regions. It queries NASA's CMR for Harmonized Landsat-Sentinel granules, processes imagery, and presents map-based analysis with saved presets and analysis history.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ChristopherJoshy/hydra/main/Tampa%20Bay%20(Florida).png" width="48%" alt="HYDRA Tampa Bay analysis map" />
-  <img src="https://raw.githubusercontent.com/ChristopherJoshy/hydra/main/Lake%20Erie%20(USA).png" width="48%" alt="HYDRA Lake Erie analysis map" />
+  <img src="https://raw.githubusercontent.com/ChristopherJoshy/HYDRA/main/Tampa%20Bay%20(Florida).png" width="48%" alt="HYDRA Tampa Bay analysis map" />
+  <img src="https://raw.githubusercontent.com/ChristopherJoshy/HYDRA/main/Lake%20Erie%20(USA).png" width="48%" alt="HYDRA Lake Erie analysis map" />
 </p>
 
 ## 🛰️ Processing path
@@ -48,7 +48,7 @@ The current code calls its value `NDCI`, but computes a normalized single-band b
 ## 🚀 Run locally
 
 ```bash
-git clone https://github.com/ChristopherJoshy/hydra.git
+git clone https://github.com/ChristopherJoshy/HYDRA.git
 cd hydra
 python -m venv .venv
 # Windows: .venv\Scripts\Activate.ps1
